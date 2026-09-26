@@ -96,6 +96,58 @@ The project will be developed through the following stages:
 9. Model comparison
 10. Results interpretation
 
+## Environment Setup
+
+This project can be run using either Python `venv` or Conda.
+
+### Option 1: Python venv
+
+Clone the repository:
+
+```bash
+git clone https://github.com/C2-Group1/smart-manufacturing-productivity.git
+cd smart-manufacturing-productivity
+```
+
+Create a virtual environment:
+
+```bash
+python3 -m venv .venv
+```
+
+Activate it:
+
+- Linux / macOS:
+
+  ```bash
+  source .venv/bin/activate
+  ```
+
+- Windows:
+
+  ```bash
+  .venv\Scripts\activate
+  ```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start Jupyter:
+
+```bash
+jupyter notebook
+```
+
+Then open:
+
+```text
+notebooks/01_data_understanding.ipynb
+```
+
+
 ## Project Structure
 
 ```text
