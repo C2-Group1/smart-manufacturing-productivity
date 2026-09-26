@@ -6,15 +6,16 @@ Smart Manufacturing Productivity Prediction
 
 ## Business Problem
 
-Garment manufacturing teams have productivity targets, but actual productivity can vary due to operational and workforce-related factors such as overtime, incentives, idle time, workforce size, style changes, and work in progress.
+Garment manufacturing facilities face significant challenges in accurately forecasting daily worker productivity due to complex variables such as overtime, team sizes, and production delays. Relying on traditional estimations creates a gap between target and actual output. This directly leads to inefficient resource allocation and missed delivery deadlines, resulting in financial losses and damaged client trust.
 
-This project aims to analyze these factors and determine whether machine learning can be used to predict the actual productivity of a manufacturing team.
+This project aims to build a model that predicts actual daily productivity in advance, enabling management to optimize resource allocation and hit delivery targets reliably.
+
 
 ## Project Objective
 
-The objective of this project is to build a regression-based machine learning solution that predicts the actual productivity of garment manufacturing teams using operational and workforce-related data.
+The project's goal is to analyze the dataset to identify factors influencing productivity and to develop a regression-based machine learning model that predicts the productivity of garment manufacturing teams based on operational and workforce data.
 
-For Milestone 1, the focus is only on defining the problem and understanding the dataset.
+For Milestone 1, we will focus on defining the problem and understanding the dataset.
 
 ## Dataset
 
@@ -22,6 +23,8 @@ For Milestone 1, the focus is only on defining the problem and understanding the
 - **Source:** UCI Machine Learning Repository
 - **Dataset file:** `garments_worker_productivity.csv`
 - **Number of records:** Approximately 1,197
+- **Number of features:** 14 features
+
 
 ## Target Variable
 
