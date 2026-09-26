@@ -122,7 +122,7 @@ smart-manufacturing-productivity/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 ## Technologies
 
 The project will mainly use:
@@ -143,3 +143,5 @@ Additional libraries may be added later as the project develops.
 The dataset is available from the **UCI Machine Learning Repository**:
 
 https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees
+
+
